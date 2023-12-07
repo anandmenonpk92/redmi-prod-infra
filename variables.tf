@@ -28,3 +28,14 @@ variable "project_owner" {
   default     = "anand"
 }
 
+variable "hosted_zone_name" {
+  type        = string
+  description = "domain name"
+  default     = "anand.fun"
+}
+
+variable "hostname" {
+  type        = string
+  description = "hostname"
+  default     = "anand.fun"
+}
